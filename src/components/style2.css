@@ -1,0 +1,83 @@
+
+
+.first_section .container .row .col-lg-10 h1{
+    font-size: 3.75rem;
+margin-bottom: 1rem;
+}
+
+.first_section .container .row .customer_ideas{
+height: 120px;
+}
+
+.first_section .container .row .customer_ideas p{
+    font-size: 1rem;
+    color: #838579;
+}
+
+.first_section .container .row h5{
+    font-size: .875rem;
+        color: #838579;
+}
+
+.first_section .container .row a, .second_section .container .row .question_div p a{
+color: #00ad6a;
+
+}
+
+.first_section .container .row .read_more{
+position: relative;
+text-decoration: underline;
+}
+
+.second_section .container .row .question_div p{
+    color: #464e61;
+}
+
+.second_section .container .row .col-6 p{
+        letter-spacing: -.5px;
+        color:#464e61;
+}
+
+.second_section .container .row .col-6 h6{
+        font-size: .875rem;
+}
+
+.second_section .container .row .col-6 .autor_infos{
+    border: 1px solid #464e61;
+    padding: 20px;
+    height: 100%;
+
+}
+
+.second_section .container .row .col-6 .autor_infos .autor_infos_p{
+
+}
+
+.third_section{
+    background-image: linear-gradient(90deg,#00ab6a,#23ea76);
+}
+
+.third_section p{
+        padding: 35px;
+
+}
+
+.third_section a{
+    font-size: 35px;
+        color: #fff;
+        transition: all 0.4s;
+}
+
+.third_section a:hover{
+color: #062c27;
+}
+
+
+/*media-query for customer-stories*/
+
+@media only screen and (max-width: 992px) {
+.read_more{
+    margin-bottom: 8%;
+}
+}
+

@@ -1,0 +1,6 @@
+@import './components/common.css';
+@import './components/variable.css';
+@import './components/style1.css';
+@import './components/style2.css';
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import './components/main.css';

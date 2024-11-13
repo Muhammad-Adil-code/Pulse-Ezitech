@@ -1,0 +1,51 @@
+/*colors*/
+
+
+.c-1{
+	color: #080c16;
+}
+.c-2{
+	color: #464951;
+}
+
+
+/*font-weight*/
+
+.fw-1{
+	font-weight: 700;
+}
+
+/*letter-spacing*/
+
+.ls-1{
+	letter-spacing: -2px;
+}
+
+.ls-2{
+	letter-spacing: .5px;
+}
+
+/*font-size*/
+
+.fsi-1{
+	font-size: 1.25rem;
+}
+
+.fsi-2{
+	font-size: 1.125rem;
+}
+
+.fs60px{
+	font-size: 60px;
+}
+
+
+.customer_ideas img{
+	height: 160px;
+	width: 160px;
+	border-radius:80px ;
+	margin-left: 30px;
+}
+body{
+	background-color: #e9f7f2!important;
+}

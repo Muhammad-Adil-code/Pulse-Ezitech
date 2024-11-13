@@ -1,0 +1,154 @@
+
+/*first section*/
+.first_section .row .col-xl-6 .info_about_free h1{
+	font-size: 3.75rem;
+}
+
+
+
+.first_section .container .row .col-lg-8 .idea_p{
+	font-size: 1.5rem;
+}
+
+.first_section .container .row .col-lg-8 .mark_p{
+	color: #00ad6a;
+	font-size: .75rem;
+
+}
+
+
+
+/*second section*/
+.second_section .row .col-xl-6 {
+	margin-bottom: 4%;
+}
+
+.second_section h1{
+	font-size: 3rem;
+}
+
+
+.container .row .first_card h2{
+	color: #00ad6a;
+}
+
+.container .row .first_card li, .container .row .first_card a{
+	
+	font-size: 1rem;
+}
+
+
+.container .row .second_card .title_card{
+	background-color: #00ad6a;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+
+}
+
+.container .row .second_card .body_card{
+	background-color: #fff;
+	height: 600px;
+
+}
+ .container .row .third_card .body_card{
+	background-color: #fff;
+	height: 430px;
+ }
+.container .row .second_card .body_card h1, .container .row .third_card .body_card h1{
+	font-size: 3rem;
+	color: #00ad6a;
+}
+
+.container .row .third_card .body_card h1{
+	font-size: 2.25rem;
+}
+
+
+.container .row .second_card .title_card p{
+	color: #fff;
+	font-size:12px;
+	padding: 3px;
+}
+
+.container .row .third_card .title_card p{
+	font-size:13px;
+	padding: 15px 50px;
+	letter-spacing: 0.5px;
+}
+
+.container .row .second_card, .container .row .third_card{
+	border: 1px solid #00ad6a;
+	cursor: pointer;
+
+}
+
+.container .row .second_card:hover .sign_body{
+	transform:scale(1.1);
+}
+
+.container .row .third_card:hover .sign_body{
+	transform:scale(1.1);
+
+}
+
+.container .row .second_card:hover .body_card .sign_body a{
+	color: black;
+}
+
+.container .row .third_card:hover .body_card .sign_body a{
+	color: black;
+
+}
+
+.container .row .second_card{
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.container .row .second_card .title_card, .container .row .third_card .title_card{
+	margin-bottom: -17px;
+}
+.container .row .second_card .body_card p, .container .row .third_card .body_card p{
+	font-size: 1.5rem;
+	letter-spacing: -.5px;
+	color: #83858a;
+}
+
+.container .row .second_card .body_card .sign_body, .container .row .third_card .body_card .sign_body{
+	transition: all 0.4s;
+	text-align: center;
+	width:50%;
+	border: 1px solid transpanent;
+	background-color: #1fe374;
+	padding: 10px;
+
+
+}
+
+.container .row .second_card .body_card .sign_body a, .container .row .third_card .body_card .sign_body a{
+	transition: all 0.4s;
+	text-decoration:none;
+}
+.container .row .third_card .title_card {
+	background-color: #e3e3e3;
+}
+
+.container .row .second_card .body_card h6, .container .row .third_card .body_card h6{
+	font-size: .75rem;
+	letter-spacing: 1.5px;
+}
+
+.container .row .second_card .body_card ul li, .container .row .third_card .body_card ul li{
+	list-style-type: none;
+	position: relative;
+}
+
+.container .row .second_card .body_card ul li::before, .container .row .third_card .body_card ul li::before{
+	position: absolute;
+	    content: '\f560';
+	font-family: "FontAwesome"; 
+	position: absolute;
+	top: 0;
+	left: -20px;
+	color: #1fe374;
+}
