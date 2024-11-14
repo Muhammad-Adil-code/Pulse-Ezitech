@@ -2206,7 +2206,7 @@ select {
 @media (max-width: 480px) {
     .bar-graph {
         left: -10%;
-        width: 230%; 
+        width: 220%; 
         /* max-width: 1500px;  */
         margin-top: -80px;
          /* Remove negative margin if needed  */
