@@ -586,4 +586,16 @@ input[type="text"] {
 .start-trial-button:hover {
     background-color: #1f9b67;
 }
+
+@media only screen and (max-width:400px){
+	.contact_section{
+		margin-bottom: 350px;
+	}
+	.form-container {
+		width: 300px ! important;
+	}
+	.bill-container{
+		width: 300px ! important;
+	}
+}
   
