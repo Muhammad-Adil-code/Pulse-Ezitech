@@ -2205,7 +2205,7 @@ select {
 /* For extra-small screens (e.g., very small phones) */
 @media (max-width: 480px) {
     .bar-graph {
-        left: -10%;
+        left: -1%;
         width: 220%; 
         /* max-width: 1500px;  */
         margin-top: -80px;
